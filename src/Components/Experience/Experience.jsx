@@ -15,42 +15,42 @@ export default function Experience() {
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experimentado</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experimentado</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experimentado</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experimentado</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>Redux</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Experimentado</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>React-Native</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
           </div>
@@ -62,35 +62,35 @@ export default function Experience() {
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>Sequelize</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>Express</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>Heroku</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Inicial</small>
               </div>
             </article>
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>
                 <h4>PostgreSql</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
           </div>

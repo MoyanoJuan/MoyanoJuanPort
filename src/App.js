@@ -6,6 +6,7 @@ import {
   Experience,
   Portfolio,
   Contact,
+  Footer,
 } from "./Components/Index";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
       <Experience />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   );
 }

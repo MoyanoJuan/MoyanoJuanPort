@@ -64,14 +64,6 @@ export default function Portfolio() {
             >
               GitHub
             </a>
-            <a
-              href=""
-              className="btn btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Deploy
-            </a>
           </div>
         </article>
       </div>
