@@ -1,30 +1,26 @@
 import React from "react";
+require("dotenv").config();
 import "./Contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 
+const { SERVICE, TEMPLATE, KEY } = process.env;
+
 export default function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_06sgwlp",
-        "template_qbbybjo",
-        form.current,
-        "wXwQo4a3IRDISoK9L"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(SERVICE, TEMPLATE, form.current, KEY).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
   };
   return (
     <section id="Contact">
